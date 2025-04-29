@@ -2,14 +2,16 @@
 👩‍💻 Team Members
 Cynthia-M-M (Team Leader)
 
-EnockEntrepreneneur (Collaborator)
+EnockEntrepreneneur
+
+seneudev
+
+Muinami-1
 
 📋 Project Description
-This is a portfolio website built as part of the Web Development Challenge.
-The website showcases a clean, responsive design to display a designer’s services, projects, testimonials, and contact information.
+This is a portfolio website built as part of the Web Development Challenge. The website showcases a clean, responsive design to display a designer’s services, projects, testimonials, and contact information.
 
-We worked together in a team to plan, structure, and develop the website.
-The main goals were to:
+Our team collaborated to plan, structure, and develop the website. The main goals were to:
 
 Practice HTML, CSS, and Bootstrap skills.
 
@@ -18,29 +20,28 @@ Recreate a modern portfolio design with custom touches.
 Ensure responsiveness across all devices.
 
 🛠️ Technologies Used
-HTML5 — for page structure
+HTML5: for page structure
 
-CSS3 — for custom styling
+CSS3: for custom styling
 
-Bootstrap 5 — for responsive layout and components
+Bootstrap 5: for responsive layout and components
 
-Google Fonts — for typography
+Google Fonts: for typography
 
-Git & GitHub — for version control and collaboration
+Git & GitHub: for version control and collaboration
 
 ⚙️ Project Setup and Working Steps
-Repository Creation:
+1. Repository Creation:
 We created the repository web-development-challenge on GitHub.
 
-Git Cloning:
+2. Git Cloning:
 We cloned the repository locally:
 
 bash
 Copy
 Edit
 git clone https://github.com/Cynthia-M-M/web-development-challenge.git
-Project Development:
-
+3. Project Development:
 Structured the folder with index.html, css/, images/, and README.md.
 
 Designed sections: Navbar, Hero, About, Services, Portfolio, Testimonials, Contact Form, Footer.
@@ -51,13 +52,18 @@ Customized colors, fonts, and spacing with custom CSS.
 
 Added responsiveness testing across devices.
 
-Collaboration:
+4. 🧑‍🤝‍🧑 Collaboration
+Cynthia-M-M (Team Leader)
 
-Added EnockEntrepreneneur as a project collaborator through GitHub settings.
+EnockEntrepreneur
+
+seneudev
+
+Muinami-1
 
 Collaborated via Git commits and pull requests for effective teamwork.
 
-Git Commit and Push:
+5. Git Commit and Push:
 After completing the project files:
 
 bash
