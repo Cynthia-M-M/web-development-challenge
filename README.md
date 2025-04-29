@@ -6,7 +6,7 @@ EnockEntrepreneneur - Enockkiprotich33@gmail.com
 
 seneudev - mwangisimone007@gmail.com
 
-Muinami-1
+Muinami-1 - njorogemuinami@gmail.com
 
 📋 Project Description
 This is a portfolio website built as part of the Web Development Challenge. The website showcases a clean, responsive design to display a designer’s services, projects, testimonials, and contact information.
