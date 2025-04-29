@@ -4,7 +4,7 @@ Cynthia-M-M (Team Leader) - cynthiamogaka49@gmail.com
 
 EnockEntrepreneneur - Enockkiprotich33@gmail.com
 
-seneudev - mwangisimone007@gmailcom
+seneudev - mwangisimone007@gmail.com
 
 Muinami-1
 
