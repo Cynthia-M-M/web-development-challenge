@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+.navbar-brand {
+    font-size: 28px;
+    font-weight: 600;
+}
+.nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333 !important;
+    margin-left: 20px;
+}
+.nav-link:hover {
+    color: #007bff !important;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero h1 {
+    font-size: 58px;
+    font-weight: bold;
+}
+.hero h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* About Section */
+.about {
+    padding: 80px 0;
+    background-color: #fff;
+}
+.about h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.about h5 {
+    color: #007bff;
+}
+.about ul {
+    list-style: none;
+    padding: 0;
+}
+.about ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Services */
+.service-box {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+.service-box:hover {
+    transform: translateY(-10px);
+}
+.service-box i {
+    color: #007bff;
+}
+
+/* Skills */
+#skills h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+#skills h5 {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* Counters */
+.counter {
+    font-size: 48px;
+    color: #007bff;
+    font-weight: bold;
+}
+section.bg-light p {
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    font-size: 14px;
+    line-height: 1.6;
+}

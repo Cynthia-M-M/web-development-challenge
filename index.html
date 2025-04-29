@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+    <div class="container">
+      <a class="navbar-brand font-weight-bold" href="#">UI Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Pages</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero bg-light d-flex align-items-center" id="home">
+    <div class="container text-center">
+      <h1>Hi, I'm John Watson</h1>
+      <h3 class="text-primary">Web Design</h3>
+      <p>I love Graphic design and Photography and have been working on my portfolio since 2016. I Can give your business a new Creative start right away!</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center">My Biography</h2>
+      <p class="lead text-center">A Lead UI Designer & Web Developer based in UK</p>
+      <div class="row mt-4">
+        <div class="col-md-6">
+          <p>I love Graphic design and Photography and have been working on my portfolio since 2016. I Can give your business a new Creative start right away! Contact me and we will discuss your projects!</p>
+          <ul>
+            <li><strong>Name:</strong> John Watson</li>
+            <li><strong>From:</strong> London, UK</li>
+            <li><strong>Email:</strong> example@mail.com</li>
+            <li><strong>Phone:</strong> +21 234 567 8901</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg" alt="Profile" class="img-fluid rounded">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center">What I do for you</h2>
+      <div class="row text-center mt-4">
+        <div class="col-md-4">
+          <i class="fas fa-code fa-2x mb-2"></i>
+          <h5>Web Development</h5>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit accusa ntium dolor emque laudan.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="fas fa-mobile-alt fa-2x mb-2"></i>
+          <h5>App Development</h5>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit accusa ntium dolor emque laudan.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="fas fa-camera fa-2x mb-2"></i>
+          <h5>Photography</h5>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit accusa ntium dolor emque laudan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-5">
+    <div class="container">
+      <h2 class="text-center">My Featured Skills</h2>
+      <p class="text-center">I specialize in Branding and Strategy, and am passionate about creating Awesome Portfolio work.</p>
+      <div class="row text-center mt-4">
+        <div class="col-md-4">
+          <h5>UI/UX Design</h5>
+          <p>Lorem ipsum viverra libero set.</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Web Development</h5>
+          <p>Lorem ipsum viverra libero set.</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Branding Design</h5>
+          <p>Lorem ipsum viverra libero set.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Counter Section -->
+  <section class="py-5 bg-light text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h2 class="counter">1500</h2>
+          <p>Finished Projects</p>
+        </div>
+        <div class="col-md-3">
+          <h2 class="counter">2500</h2>
+          <p>Working Hours</p>
+        </div>
+        <div class="col-md-3">
+          <h2 class="counter">1280</h2>
+          <p>Online Support</p>
+        </div>
+        <div class="col-md-3">
+          <h2 class="counter">3020</h2>
+          <p>Happy Customers</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>+12 345 678 900 | info@example.com</p>
+      <p>208 Avenue street, UK - 62617</p>
+      <p>&copy; 2025 UI Portfolio. All Rights Reserved | WordPress Theme by W3Layouts</p>
+    </div>
+  </footer>
+
+  <script>
+    $(document).ready(function() {
+      $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+      });
+    });
+  </script>
+</body>
+</html>
