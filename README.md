@@ -1,10 +1,10 @@
 🚀 Web Development Challenge — Portfolio Website
 👩‍💻 Team Members
-Cynthia-M-M (Team Leader)
+Cynthia-M-M (Team Leader) - cynthiamogaka49@gmail.com
 
-EnockEntrepreneneur
+EnockEntrepreneneur - Enockkiprotich33@gmail.com
 
-seneudev
+seneudev - mwangisimone007@gmailcom
 
 Muinami-1
 
@@ -91,3 +91,6 @@ Fine-tuning custom styles without breaking Bootstrap defaults.
 📄 License
 This project is created as part of an educational challenge.
 It is open for learning purposes only.
+
+6. Deployment
+site is live at https://cynthia-m-m.github.io/web-development-challenge/
