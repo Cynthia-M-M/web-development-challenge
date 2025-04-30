@@ -1,185 +1,467 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>UI Portfolio</title>
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-</head>
-<body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-    <div class="container">
-      <a class="navbar-brand font-weight-bold" href="#">UI Portfolio</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-          <li class="nav-item"><a class="nav-link" href="#portfolio">Pages</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <header class="hero bg-light d-flex align-items-center" id="home">
-    <div class="container text-center">
-      <h1>Hi, I'm John Watson</h1>
-      <h3 class="text-primary">Web Design</h3>
-      <p>I love Graphic design and Photography and have been working on my portfolio since 2016. I Can give your business a new Creative start right away!</p>
-    </div>
-  </header>
-
-  <!-- About Section -->
-  <section id="about" class="py-5">
-    <div class="container">
-      <h2 class="text-center">My Biography</h2>
-      <p class="lead text-center">A Lead UI Designer & Web Developer based in UK</p>
-      <div class="row mt-4">
-        <div class="col-md-6">
-          <p>I love Graphic design and Photography and have been working on my portfolio since 2016. I Can give your business a new Creative start right away! Contact me and we will discuss your projects!</p>
-          <ul>
-            <li><strong>Name:</strong> John Watson</li>
-            <li><strong>From:</strong> London, UK</li>
-            <li><strong>Email:</strong> example@mail.com</li>
-            <li><strong>Phone:</strong> +21 234 567 8901</li>
-          </ul>
-        </div>
-        <div class="col-md-6">
-          <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg" alt="Profile" class="img-fluid rounded">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Services Section -->
-  <section id="services" class="py-5 bg-light">
-    <div class="container">
-      <h2 class="text-center">What I do for you</h2>
-      <div class="row text-center mt-4">
-        <div class="col-md-4">
-          <i class="fas fa-code fa-2x mb-2"></i>
-          <h5>Web Development</h5>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit accusa ntium dolor emque laudan.</p>
-        </div>
-        <div class="col-md-4">
-          <i class="fas fa-mobile-alt fa-2x mb-2"></i>
-          <h5>App Development</h5>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit accusa ntium dolor emque laudan.</p>
-        </div>
-        <div class="col-md-4">
-          <i class="fas fa-camera fa-2x mb-2"></i>
-          <h5>Photography</h5>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit accusa ntium dolor emque laudan.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Skills Section -->
-  <section id="skills" class="py-5">
-    <div class="container">
-      <h2 class="text-center">My Featured Skills</h2>
-      <p class="text-center">I specialize in Branding and Strategy, and am passionate about creating Awesome Portfolio work.</p>
-      <div class="row text-center mt-4">
-        <div class="col-md-4">
-          <h5>UI/UX Design</h5>
-          <p>Lorem ipsum viverra libero set.</p>
-        </div>
-        <div class="col-md-4">
-          <h5>Web Development</h5>
-          <p>Lorem ipsum viverra libero set.</p>
-        </div>
-        <div class="col-md-4">
-          <h5>Branding Design</h5>
-          <p>Lorem ipsum viverra libero set.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Counter Section -->
-  <section class="py-5 bg-light text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <h2 class="counter">1500</h2>
-          <p>Finished Projects</p>
-        </div>
-        <div class="col-md-3">
-          <h2 class="counter">2500</h2>
-          <p>Working Hours</p>
-        </div>
-        <div class="col-md-3">
-          <h2 class="counter">1280</h2>
-          <p>Online Support</p>
-        </div>
-        <div class="col-md-3">
-          <h2 class="counter">3020</h2>
-          <p>Happy Customers</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="portfolio" class="py-5">
-    <div class="container">
-      <h2 class="text-center">My Success Work</h2>
-      <div class="row mt-4 portfolio-grid">
-        <div class="col-md-4">
-          <div class="portfolio-item">
-            <img src="https://via.placeholder.com/350x250" alt="Project 1" class="img-fluid">
-            <h5 class="mt-2">Architectural Design</h5>
-            <p>This project involved designing a modern office building with a focus on eco-friendly materials and energy-efficient systems. The aim was to create a sustainable and inspiring workspace.</p>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>UI Portfolio</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <i class="fab fa-asymmetrik me-2"></i>
+                  UI Portfolio
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Services</a>
+                      </li>
+                      
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown">
+                              Pages
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+                              <li><a class="dropdown-item" href="#">Blog Page</a></li>
+                              <li><a class="dropdown-item" href="#">Elements Page</a></li>
+                              <li><a class="dropdown-item" href="#">404 Page</a></li>
+                              <li><a class="dropdown-item" href="#">Landing Page</a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link btn btn-primary ms-3" href="#">Hire Me</a>
+                      </li>
+                  </ul>
+              </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="portfolio-item">
-            <img src="https://via.placeholder.com/350x250" alt="Project 2" class="img-fluid">
-            <h5 class="mt-2">Brand Identity</h5>
-            <p>For this project, I developed a complete brand identity for a startup. This included logo design, color schemes, typography, and packaging, giving the brand a fresh and professional look.</p>
+      </nav>
+      <!-- Hero Section -->
+      <section class="hero-section">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-7">
+                      <div class="hero-content">
+                          <h4 class="hero-title">Hi, I'm John Watson</h4>
+                          <h1 class="hero-subtitle">Web Designer</h1>
+                          <p class="hero-description">
+                              I love Graphic design and Photography and have been working on my portfolio since 2016. I Can give your business a new Creative start right away!
+                          </p>
+                          <div>
+                              <a href="#" class="btn btn-primary">Hire Me</a>
+                              <a href="#" class="btn btn-outline">My Portfolio</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="portfolio-item">
-            <img src="https://via.placeholder.com/350x250" alt="Project 3" class="img-fluid">
-            <h5 class="mt-2">Website Redesign</h5>
-            <p>Redesigned the website for a non-profit organization to improve user experience, accessibility, and responsiveness. The goal was to make the website more interactive and visually appealing.</p>
+          
+          <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/banner.png" alt="John Watson" class="hero-image">
+      </section>
+
+      <!-- About Section -->
+      <section class="py-5">
+          <div class="container">
+            <div class="row align-items-center">
+              <!-- Image Section -->
+              <div class="col-lg-5 mb-4 mb-lg-0 text-center">
+                <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/about.jpg" alt="Profile Image" class="img-fluid rounded-3 shadow" />
+              </div>
+        
+              <!-- Text Content -->
+              <div class="col-lg-7">
+                <h6 class="text-uppercase mb-3 text-muted">My Biography</h6>
+                <h2 class="fw-bold mb-4">A Lead UI Designer & Web Developer Based In UK</h2>
+                <p class="mb-4 text-muted">
+                  I love Graphic design and Photography and have been working on my portfolio since 2016.
+                  I can give your business a new Creative start right away! Contact me and we will discuss your projects!
+                </p>
+        
+                <div class="row mb-4">
+                  <div class="col-sm-6">
+                    <p class="mb-2"><strong>Name:</strong> John Watson</p>
+                    <p class="mb-2"><strong>Email:</strong> example@mail.com</p>
+                  </div>
+                  <div class="col-sm-6">
+                    <p class="mb-2"><strong>From:</strong> London, UK</p>
+                    <p class="mb-2"><strong>Phone:</strong> +21 234 567 8901</p>
+                  </div>
+                </div>
+        
+                <div class="mb-4">
+                  <strong>Follow me on</strong>
+                  <div class="d-inline-block ms-3">
+                    <a href="#" class="text-dark me-3"><i class="bi bi-behance"></i></a>
+                    <a href="#" class="text-dark me-3"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="text-dark me-3"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-dark"><i class="bi bi-twitter"></i></a>
+                  </div>
+                </div>
+        
+                <a href="#" class="btn btn-primary me-3">Hire me</a>
+                <a href="#" class="btn btn-primary">Download CV</a>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
+        </section>
 
-  <!-- Footer -->
-  <footer class="bg-dark text-white py-4">
-    <div class="container text-center">
-      <p>+12 345 678 900 | info@example.com</p>
-      <p>208 Avenue street, UK - 62617</p>
-      <p>&copy; 2025 UI Portfolio. All Rights Reserved | WordPress Theme by W3Layouts</p>
-    </div>
-  </footer>
 
-  <script>
-    $(document).ready(function() {
-      $('.counter').counterUp({
-        delay: 10,
-        time: 1000
-      });
-    });
-  </script>
-</body>
+      <!-- Services Section -->
+      <section id="services" class="py-5 bg-light">
+          <div class="container">
+              <h2 class="text-center mb-5">What I Do For You</h2>
+              <div class="row text-center">
+                  <div class="col-md-4 mb-4">
+                      <div class="service-card p-4 bg-white rounded shadow-sm">
+                          <i class="fas fa-chalkboard fa-2x mb-4" style="color: var(--primary-color)"></i>
+                          <h5 class="mb-3">Web Development</h5>
+                          <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit accusa ntium dolor emque laudan.</p>
+                      </div>
+                  </div>
+                  <div class="col-md-4 mb-4">
+                      <div class="service-card p-4 bg-white rounded shadow-sm">
+                          <i class="fas fa-app-store fa-2x mb-4" style="color: var(--primary-color)"></i>
+                          <h5 class="mb-3">App development</h5>
+                          <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit accusa ntium dolor emque laudan.</p>
+                      </div>
+                  </div>
+                  <div class="col-md-4 mb-4">
+                      <div class="service-card p-4 bg-white rounded shadow-sm">
+                          <i class="fas fa-camera-retro fa-2x mb-4" style="color: var(--primary-color)"></i>
+                          <h5 class="mb-3">Photography</h5>
+                          <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit accusa ntium dolor emque laudan.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/about1.jpg" class="img-fluid" alt="Skills Image">
+              </div>
+        
+              <div class="col-md-6">
+                <p class="text-uppercase text-muted mb-1">My Skills</p>
+                <h2 class="">My Featured Skills</h2>
+                <p class="mb-4">I specialize in Branding and Strategy, and am passionate about creating Awesome Portfolio work. And I always ready to impress the audience with my Creativity.</p>
+        
+                <h6>UI/UX Design</h6>
+                <div class="progress mb-3" style="height: 8px;"> <div class="progress-bar bg-success" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+        
+                <h6 class="mt-3">Ideas & Technology</h6>
+                <div class="progress mb-3" style="height: 8px;">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+        
+                <h6 class="mt-3">Branding Design</h6>
+                <div class="progress mb-3" style="height: 8px;">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+        
+                <h6 class="mt-3">Responsive Web Design</h6>
+                <div class="progress mb-3" style="height: 8px;">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section id="services" class="py-5 bg-light">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7">
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <i class="fas fa-code text-success fs-3 mb-2"></i>
+                    <h5>Web Development</h5>
+                    <p class="text-muted">Lorem ipsum viverra libero set.<br>Pellen ut justo, in ligula at.</p>
+                  </div>
+        
+                  <div class="col-md-6 mb-4">
+                    <i class="fas fa-chart-line text-success fs-3 mb-2"></i>
+                    <h5>Design Trends</h5>
+                    <p class="text-muted">Lorem ipsum viverra libero set.<br>Pellen ut justo, in ligula at.</p>
+                  </div>
+        
+                  <div class="col-md-6 mb-4">
+                    <i class="fas fa-search text-success fs-3 mb-2"></i>
+                    <h5>Research & Analysis</h5>
+                    <p class="text-muted">Lorem ipsum viverra libero set.<br>Pellen ut justo, in ligula at.</p>
+                  </div>
+        
+                  <div class="col-md-6 mb-4">
+                    <i class="fas fa-headset text-success fs-3 mb-2"></i>
+                    <h5>Customer support</h5>
+                    <p class="text-muted">Lorem ipsum viverra libero set.<br>Pellen ut justo, in ligula at.</p>
+                  </div>
+        
+                  <div class="col-md-6 mb-md-0 mb-4"> <i class="fas fa-mobile-alt text-success fs-3 mb-2"></i>
+                    <h5>Responsive design</h5>
+                    <p class="text-muted">Lorem ipsum viverra libero set.<br>Pellen ut justo, in ligula at.</p>
+                  </div>
+        
+                  <div class="col-md-6 mb-md-0 mb-4"> <i class="fas fa-paint-brush text-success fs-3 mb-2"></i>
+                    <h5>PSD Design</h5>
+                    <p class="text-muted">Lorem ipsum viverra libero set.<br>Pellen ut justo, in ligula at.</p>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-md-5">
+                <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/banner.png" class="img-fluid" alt="Person Image">
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <!-- Counter Section -->
+      <section class="py-5 bg-light text-center">
+          <div class="container">
+          <div class="row">
+              <div class="col-md-3">
+              <h2 class="counter">1500</h2>
+              <p>Finished Projects</p>
+              </div>
+              <div class="col-md-3">
+              <h2 class="counter">2500</h2>
+              <p>Working Hours</p>
+              </div>
+              <div class="col-md-3">
+              <h2 class="counter">1280</h2>
+              <p>Online Support</p>
+              </div>
+              <div class="col-md-3">
+              <h2 class="counter">3020</h2>
+              <p>Happy Customers</p>
+              </div>
+          </div>
+          </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section id="success-work" class="py-5">
+          <div class="container">
+            <h2 class="text-center mb-5">My Success Work</h2>
+        
+            <div class="row">
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="image-container">
+                  <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/blog1.jpg" class="img-fluid" alt="Work Image 1">
+                  <div class="overlay">
+                    <div class="overlay-text">
+                      <h5>Architecture</h5>
+                      <p>This is a short description</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="image-container">
+                  <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/blog2.jpg" class="img-fluid" alt="Work Image 2">
+                  <div class="overlay">
+                    <div class="overlay-text">
+                      <h5>Corporate</h5>
+                      <p>This is a short description</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="image-container">
+                  <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/blog3.jpg" class="img-fluid" alt="Work Image 3">
+                  <div class="overlay">
+                    <div class="overlay-text">
+                      <h5>Ecommerce</h5>
+                      <p>This is a short description</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="image-container">
+                  <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/blog4.jpg" class="img-fluid" alt="Work Image 4">
+                  <div class="overlay">
+                    <div class="overlay-text">
+                      <h5>Mobile UI</h5>
+                      <p>This is a short description</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="image-container">
+                  <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/blog5.jpg" class="img-fluid" alt="Work Image 5">
+                  <div class="overlay">
+                    <div class="overlay-text">
+                      <h5>Fashion</h5>
+                      <p>This is a short description</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="image-container">
+                  <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/blog6.jpg" class="img-fluid" alt="Work Image 6">
+                  <div class="overlay">
+                    <div class="overlay-text">
+                      <h5>Real Estate</h5>
+                      <p>This is a short description</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+
+      <section id="logo-carousel" class="py-5">
+          <div class="container">
+          <div id="logoCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+              <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="d-flex justify-content-center align-items-center carousel-image-container">
+                  <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/logo1.png" class="d-block carousel-logo-img" alt="Logo 1">
+                  </div>
+              </div>
+      
+              <div class="carousel-item">
+                  <div class="d-flex justify-content-center align-items-center carousel-image-container">
+                  <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/logo2.png" class="d-block carousel-logo-img" alt="Logo 2">
+                  </div>
+              </div>
+      
+              <div class="carousel-item">
+                  <div class="d-flex justify-content-center align-items-center carousel-image-container">
+                  <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/logo3.png" class="d-block carousel-logo-img" alt="Logo 3">
+                  </div>
+              </div>
+      
+              <div class="carousel-item">
+                  <div class="d-flex justify-content-center align-items-center carousel-image-container">
+                  <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/logo4.png" class="d-block carousel-logo-img" alt="Logo 4">
+                  </div>
+              </div>
+      
+              </div>
+      
+              </div>
+          </div>
+      </section>
+    
+      <!-- Footer -->
+      <footer class="site-footer py-5">
+          <div class="container">
+          <div class="row justify-content-center mb-4">
+              <div class="col-auto text-center">
+              <h3 class="footer-logo">
+                  <i class="fab fa-asymmetrik me-2"></i> UI Portfolio
+              </h3>
+              </div>
+          </div>
+      
+          <div class="row justify-content-center text-center mb-4">
+              <div class="col-md-8">
+              <p class="contact-info">
+                  <i class="fas fa-phone-alt me-2"></i> +12 345 678 900
+                  <i class="fas fa-envelope ms-4 me-2"></i> info@example.com
+              </p>
+              <p class="contact-info">
+                  <i class="fas fa-map-marker-alt me-2"></i> 208 Avenue street, UK - 62617.
+              </p>
+              </div>
+          </div>
+      
+          <div class="row align-items-center">
+              <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              <p class="copyright-text">&copy; 2025 UI Portfolio . All Rights Reserved | WordPress Theme by <a href="#" class="theme-link">W3Layouts</a> .</p>
+              </div>
+      
+              <div class="col-md-6 text-center text-md-end">
+              <div class="social-icons">
+                  <a href="#" class="social-icon me-3"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="social-icon me-3"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="social-icon me-3"><i class="fab fa-google-plus-g"></i></a>
+                  <a href="#" class="social-icon me-3"><i class="fab fa-pinterest-p"></i></a>
+                  <a href="#" class="social-icon"><i class="fab fa-vk"></i></a>
+              </div>
+              </div>
+          </div>
+          </div>
+      </footer>
+    
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+      <script>
+          const texts = ["Web Designer", "Web Developer", "Photographer", "Freelancer"];
+          const subtitleEl = document.querySelector(".hero-subtitle");
+      
+          let textIndex = 0;
+          let charIndex = 0;
+          let isDeleting = false;
+          let typingSpeed = 150;
+          let pauseTime = 1500;
+      
+          function typeEffect() {
+              const currentText = texts[textIndex];
+              if (isDeleting) {
+                  subtitleEl.textContent = currentText.substring(0, charIndex--);
+              } else {
+                  subtitleEl.textContent = currentText.substring(0, charIndex++);
+              }
+      
+              if (!isDeleting && charIndex === currentText.length) {
+                  isDeleting = true;
+                  setTimeout(typeEffect, pauseTime);
+              } else if (isDeleting && charIndex === 0) {
+                  isDeleting = false;
+                  textIndex = (textIndex + 1) % texts.length;
+                  setTimeout(typeEffect, 500);
+              } else {
+                  setTimeout(typeEffect, isDeleting ? 80 : typingSpeed);
+              }
+          }
+      
+          // Start the effect after DOM loads
+          document.addEventListener("DOMContentLoaded", typeEffect);
+
+          $(document).ready(function() {
+              $('.counter').counterUp({
+                  delay: 10,
+                  time: 1000
+              });
+          });
+      </script>
+      
+  </body>
 </html>
