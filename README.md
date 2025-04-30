@@ -55,11 +55,7 @@ Added responsiveness testing across devices.
 4. 🧑‍🤝‍🧑 Collaboration
 Cynthia-M-M (Team Leader)
 
-EnockEntrepreneur
-
 seneudev
-
-Muinami-1
 
 Collaborated via Git commits and pull requests for effective teamwork.
 
